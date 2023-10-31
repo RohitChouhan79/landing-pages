@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Gilroy";
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: #FDFDFD;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    padding: 0px 20px;
+    border-bottom:0.5px dashed rgba(192, 192, 192, 0.337);
+}
+
+#nav-part1{
+    height: 100%;
+    width: 50%;
+}
+#nav-part1>img{
+    height: 70px;
+}
+
+#nav-part2{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    /* background-color:red; */
+    gap: 30px;
+    padding-left: 140px;
+  
+}
+
+#nav-part2>h3{
+    font-weight: 100;
+    font-size: 15px;
+    padding-top: 35px;
+}
+
+#nav-part2>h3:hover{
+    border-bottom: 3px solid black;
+}
+
+#nav-part2>button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: #333333;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+#nav-part2>button:hover{
+    background-color: black;
+    color: #FDFDFD;
+}
+
+#Content{
+    height: calc(100% - 80px);
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+#Content>#part1{
+    height: 100%;
+    width: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8vmax;
+    padding-bottom: 6vmax;
+    padding-left: 15vmax;
+}
+
+#imagee{
+    width: 50px;
+}
+
+#Content>#part2{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    padding-top: 4vmax;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-left: 5px;  
+}
+
+#Content>#part2>h4{
+    font-size: 25px;
+    line-height: 25px;
+    padding-bottom: 15px;
+    color: #333333;
+
+}
+
+#Content>#part2>h1{
+    font-size: 60px;
+    line-height: 60px;
+    padding-bottom: 15px;
+    color: #333333;
+    
+}
+
+#Content>#part2>#p1{
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 15px;
+    color: #33333396;
+}
+
+.form-box{
+    /* background-color: red; */
+    height: 55%;
+    width: 100%;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box>form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box>form>label{
+    font-size: 20px;
+    padding-bottom: 2px;
+    font-weight: 900;
+    color: #333333;
+}
+
+.form-box>form>input{
+    height: 15%;
+    width: 100%;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.296);
+    padding: 5px 50px;
+}
+
+.form-box>form>#message{
+    height: 25%;
+    width: 100%;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.296);
+}
+
+#Submit-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: #FFFFFF;
+    border: 1px solid black;
+    
+    font-size: 20px;
+}
+#Submit-btn:hover{
+    background-color: #FFFFFF;
+    color: black;
+    border: 1px solid black;
+}
+
+#meeting-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: black;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+#p2{
+    font-size: 15px;
+    color: #333333b8;
+}

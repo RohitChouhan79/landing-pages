@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Gilroy";
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    position: fixed;
+    z-index: 999;
+    /* background-color: red; */
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+#nav-part1 h3{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-part2 button{
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-part2 i{
+    font-size: 25px;
+}
+
+.nav-part2 button:hover{
+    color: black;
+    background-color: white;
+    
+}
+
+#box{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+#box #left{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    padding-top: 10%;
+   padding-left: 100px;
+}
+#box>#left>h1{
+    font-size: 110px;
+    font-weight: 500;
+    line-height: 120px;
+}
+#box>#left>h1>span{
+    background-color: #FFD124;
+    font-size: 110px;
+    padding: 5px 25px;
+    border-radius: 50px;
+}
+
+#box>#left>p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(70, 69, 69);
+    padding-top: 30px;
+}
+
+#box #right{
+    height: 100%;
+    width: 50%;
+    background-color:#E45826;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.butn{
+    padding-top: 25px;
+    gap:30px;
+}
+#btn1{
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 35px;
+}
+#btn1:hover{
+    color: black;
+    background-color: white;
+}
+#btn-2{
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 1px solid black;
+    color: white;
+    background-color: rgba(44, 115, 44, 0.929);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 35px;
+}
+
+#btn-2:hover{
+    color: white;
+    background-color: black;
+}
+#box>#right>img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    padding-top: 150px;
+}

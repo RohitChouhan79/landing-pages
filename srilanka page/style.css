@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* font-family: 'Edu SA Beginner', cursive;
+     */
+     font-family: "Gilroy";
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    border-top: 0.1px solid black;
+    
+}
+#vidio{
+    z-index: -11;
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+#nav{
+    height: 80px;
+    width: calc(100% - 70px);
+    margin-left: 70px;
+    margin-top: 20px;
+    /* background-color: aqua; */
+    display: flex;
+    gap: 40px;
+    align-items: center;  
+ }
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .line{
+    height: 2px;
+    background-color: #fff;
+    width: 140px;
+    
+ }
+
+ .logo>h1>span{
+    color: #fff;
+    font-weight: 500;
+    font-size: 55px;
+ }
+ .logo>h1{
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 18px;
+ }
+ #nav>h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+ }
+ #nav>i{
+    color: white;
+    font-size: 30px;
+ }
+
+ #content{
+    height: calc(100% - 100px);
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #content>h1{
+    text-transform: uppercase;
+    font-size: 75px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 10px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: anime 20s linear infinite ;
+    transition: all 5s cubic-bezier(0.075, 0.82, 0.165, 1) ease-in;
+}
+
+#content>h3{
+    font-size: 35px;
+    font-weight: 300;
+    color: #fff;
+}
+
+@keyframes anime {
+
+    0%{
+        color: #fff;
+    }
+    25%{
+        color: rgba(255, 255, 0, 0.626) ;
+    }
+    50%{
+        color: #fff ;
+
+    }
+    75%{
+        color: rgba(255, 255, 0, 0.677) ;
+
+    }
+    100%{
+        color: #fff ;
+
+    }
+}
+
+
+/* button::before{
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: aqua;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    transition: 5s all;
+}
+
+button:hover::before{
+    width: 100%;
+} */

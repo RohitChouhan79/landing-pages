@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Gilroy";
+}
+
+#page1{
+    height: 100%; 
+    width: 100%;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+
+#nav>.logo>h1{
+    font-size:20px;
+    font-weight: 900;
+    padding: 5px 20px;
+    /* border: 5px double salmon; */
+    /* background-color: salmon; */
+    color:black;
+    text-transform: uppercase;
+    /* -webkit-text-stroke: black; */
+}
+
+.nav-part1{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    color: rgba(43, 42, 42, 0.667);
+}
+.nav-part1>h3{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    color: rgba(43, 42, 42, 0.667);
+
+}
+
+
+.nav-part2>#btn1{
+padding: 20px 20px;
+border-radius: 50%;
+background-color: transparent;
+border: 0.5px dashed rgba(43, 42, 42, 0.667);
+color: rgba(43, 42, 42, 0.667);
+}
+
+.nav-part2>#btn1>i{
+    font-size: 25px;
+}
+
+.nav-part2>#btn2{
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 1px solid rgba(43, 42, 42, 0.667);
+    color: rgba(43, 42, 42, 0.667);
+    background-color: transparent;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+.nav-part2>#btn2:hover{
+    background-color: antiquewhite;
+}
+
+#content1{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left:80px ;
+    /* background-color: aqua; */
+}
+
+#content1>h1{
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+#content2{
+    height: 150px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#content2>.content2-box1{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    /* background-color: aqua; */
+}
+
+#content2>.content2-box1>button{
+    padding: 10px 10px;
+    border-radius: 100%;
+    background-color: aqua;
+    border: none;
+}
+#content2>.content2-box1>button>i{
+    font-size: 25px;
+}
+
+#content2>.content2-box1>h3{
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#content2>.content2-box2{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+#content2>.content2-box2>p{
+    font-size: 18px;
+    /* line-height: 20px    ; */
+    font-weight: 200;
+}
+
+#imgg1{
+    height: 138px;
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url(https://swtchenergy.com/uploads/2023/03/SWTCH-Care-On-site-service_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 150px;
+}

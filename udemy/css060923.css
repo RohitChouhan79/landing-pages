@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+
+}
+
+#part2{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#center{
+    height: calc(100% - 80px);
+    /* background-color: blue; */
+    display: flex;
+    
+}
+
+#left{
+    height: 100%;
+    width: 50%;
+    padding-left: 60px;
+    padding-top: 120px;
+    /* background-color: blue;   */
+
+}
+
+#left h1{
+    font-size: 70px;
+}
+
+h1 span{
+    color: #FE515D;
+}
+
+#left p{
+    padding: 30px 0;
+    width: 75%;
+    font-size: 20px;
+}
+
+button{
+    padding: 15px 30px;
+    border: none;
+    background-color: #FE515D;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#right{
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+    background-image: url(https://image.freepik.com/free-vector/coding-concept-illustration_114360-859.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}

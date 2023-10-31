@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background-color:#95C11F;
+    background-image: url(https://uhainabio.fr/wp-content/themes/uhaina/assets/img/bg-wave-2.png);
+    border: 0.5px solid white;
+}
+
+nav{
+    height: 10%;
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    /* padding: 0%; */
+    
+
+    /* background-color: aqua; */
+    display: flex;
+    z-index: 1;
+
+}
+
+#nav-box1{
+    /* background-color: red; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.btn-navbox1{
+    background-color: transparent;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://uhainabio.fr/wp-content/themes/uhaina/assets/img/label-menu.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    
+}
+
+.btn-navbox1>.equalbtn{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* -ms-flex-item-align: center; */
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: #304b4f;
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
+}
+.btn-navbox1>.equalbtn>.span1{
+    /* display: block; */
+    position: absolute;
+    height: 2px;
+    width: 45%;
+    background-color: #fff;
+    border-radius: 2px;
+    /* opacity: 2; */
+    left: 50%;
+    /* -webkit-transform: translateX(-50%) rotate(0deg); */
+    transform: translateX(-50%) rotate(0deg);
+    
+    /* transition: top .25s ease-in-out,transform .25s ease-in-out,-webkit-transform .25s ease-in-out;
+*/
+}
+
+#nav-box2{
+    width: 50%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 10%;
+}
+#nav-box2 a{
+    font-size: 40px;
+    padding: 15px;
+    color: aliceblue;
+    background-color: #184A4E;
+    text-decoration: none;
+    border-radius: 20px;
+    /* margin-right: 10%; */
+}
+
+
+#content{
+    height: calc(100% - 16%);
+    width: 100%;
+    /* background-color: #fff; */
+    display: flex;
+}
+
+#content1{
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+
+}
+
+#content1 .toph1{
+    padding-top: 15%;
+    padding-left: 5%;
+    color:#184A4E;
+    font-size: 15PX;
+}
+
+#content1 h1{
+    padding-top: 25%;
+    color: #184A4E;
+    padding-left: 5%;
+    font-size: 55px;
+}
+#content1 h1 span{
+    padding-top: 0%;
+    /* padding-left: 5%; */
+    font-size: 40px;
+    line-height: 40px;
+    color: #304b4f;
+
+}
+
+#content1 p{
+    /* padding-top: 40%; */
+    padding-top: 10px;
+    padding-left: 5%;
+    font-size: 25px;
+    line-height: 25px;
+    color: #304b4f;
+
+}
+
+#content1 span .cc{
+    padding-left: 5%;
+    font-size: 50px;
+    line-height: 40px;
+    color: #184A4E;  
+}
+
+
+
+#content2{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    
+    background-image: url(https://uhainabio.fr/wp-content/uploads/2022/07/femme-illu-ipa.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    
+    /* transform: translate(280px); */
+}
+
+#content2 img{
+    height: 600px;
+    width: 150px;
+    position: relative;
+    transform: translate(140px);
+   
+}
+
+   
+
+.product-img{
+    height: 300px;
+    width: 600px;
+    animation: rsc 5s ease-in-out infinite normal forwards ;
+    animation-play-state: running;
+
+    animation: name duration timing-function delay iteration-count direction fill-mode; 
+}
+
+
+ @keyframes rsc{
+        0% {
+            /* transform: translateX(120px); */
+            /* -webkit-transform: translateY(0); */
+            transform: translateY(0);
+        }
+        50% {
+            /* transform: rotate(5deg); */
+            /* transform: translateX(120px); */
+            /* -webkit-transform: translateY(3%); */
+            transform:  translatey(3%);
+        }
+        100% {
+            
+            /* transform: translateX(3%); */
+            /* -webkit-transform: translateY(0); */
+            transform: translateY(0%);
+        }
+    }
+

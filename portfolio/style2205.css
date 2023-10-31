@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+.a{
+    border-top: 0.5% solid white;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+    border-top: 0.2px solid white;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0,0.8);
+    filter: blur(50%);
+}
+
+.c{
+    font-family: 'Bitter', serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    left: 10%;
+}
+
+.b{
+    
+    padding: 0px 10px;
+    position: relative;
+    left:50%;
+    
+}
+.e{
+    font-family: 'Bitter', serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: red;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 3px;
+    border-color: blue;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+.f{
+    position: relative;
+    top: 9%;
+     
+
+}
+.g{
+    position: absolute;
+    top: 40%;
+    right: 20%;
+}
+.z{
+    color: white;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 55px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+
+.f{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 25px;
+    font-weight: 100;
+    margin: 1%;
+}
+.m{
+    background-color: transparent;
+    color: brown;
+    border-radius: 40px;
+    font-weight: 100;
+    padding: 2%;
+    margin: 3%;
+}

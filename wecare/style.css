@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    color: black;
+    /* background-color: #FDFDFE; */
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: #FDFDFE;   */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+nav>img{
+    height: 70px;
+    margin-top: 5px;
+}
+
+nav>.part2{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    color: rgb(89, 83, 83);
+}
+nav>.part2>h3{
+    color: gray;
+    font-size: 20px;
+}
+.part2>button{
+    padding: 10px 40px;
+    color: #ffff;
+    background-color: #42407E;
+    border: none;
+    font-size: 20px;
+}
+
+nav>.part2>h3:hover{
+    color:#42407E;
+}
+
+.content{
+    height: calc(100% - 80px);
+    width: 100%;
+    display: flex;
+    /* background-color:saddlebrown; */
+}
+
+.content-box2{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua;   */
+    padding-left: 35px;;
+}
+
+.content-box2>h2{
+    font-size: 80px;
+    padding-top: 35px;
+    margin-top: 80px;
+}
+
+.content-box2>h5{
+    font-size: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: #855684;
+    /* padding-left: 35px;   */
+    /* margin-top: 80px; */
+}
+
+.content-box1{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    background-image: url(https://thumbs.dreamstime.com/b/beautiful-female-doctor-isolates-white-11171520.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content-box2>button{
+    padding: 10px 40px;
+    margin-left: 105px;
+    margin-top: 25px;
+    color: #ffff;
+    background-color: #42407E;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+}
